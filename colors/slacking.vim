@@ -48,6 +48,8 @@ let s:gray3    = "#6c6c6c"
 let s:gray4    = "#7c7c7c"
 let s:gray5    = "#aaaaaa"
 let s:gray6    = "#393939"
+let s:orange2  = "#ff5f00"
+let s:orange3  = "#fe8019"
 
 " ============================================================================
 " Terminal Colors
@@ -72,8 +74,8 @@ let s:t_gray3    = "59"
 let s:t_gray4    = "102"
 let s:t_gray5    = "145"
 let s:t_gray6    = "237"
-let s:t_orange2  = "208"    " brighter Orange
-let s:t_orange3  = "202"    " Bold Orange
+let s:t_orange2  = "202"    " Bolder Orange
+let s:t_orange3  = "208"    " Brighter Orange
 
 " ============================================================================
 " Color Functions
@@ -361,7 +363,7 @@ let g:terminal_color_1 = s:red
 let g:terminal_color_2 = s:green
 let g:terminal_color_3 = s:yellow
 let g:terminal_color_4 = s:blue
-let g:terminal_color_5 = s:t_orange2
+let g:terminal_color_5 = s:orange2
 let g:terminal_color_6 = s:turqoise
 let g:terminal_color_7 = s:white
 let g:terminal_color_8 = s:black1
@@ -369,7 +371,7 @@ let g:terminal_color_9 = s:red
 let g:terminal_color_10 = s:green
 let g:terminal_color_11 = s:yellow
 let g:terminal_color_12 = s:blue
-let g:terminal_color_13 = s:t_orange3
+let g:terminal_color_13 = s:orange3
 let g:terminal_color_14 = s:turqoise
 let g:terminal_color_15 = s:white
 
