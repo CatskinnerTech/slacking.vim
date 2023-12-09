@@ -4,7 +4,9 @@ Slacking is my personal color scheme for (Neo)Vim.
 It was originally based on a theme by Yorick Peterse called ["Happy Hacking"][happy_hacking] but I didn't like the bright pinks.
 
 ## Screenshots
-
+| bash | Lua | GO
+|------|------|---------
+| ![bash](screenshots/rust.png) | ![Lua](screenshots/ruby.png) | ![GO](screenshots/python.png)
 ## Install
 Add the following to your lazy plugin
 ```
