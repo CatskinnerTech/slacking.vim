@@ -144,7 +144,7 @@ call s:Color("MatchParen", "NONE", "NONE", "NONE", "NONE", "bold")
 call s:Color("Conceal", "NONE", "NONE", "NONE", "NONE", "NONE")
 
 call s:Color("Operator", s:gold2, "NONE", s:t_gold2, "NONE", "bold")
-call s:Color("Identifier", s:navy, "NONE", s:t_navy, "NONE")
+call s:Color("Identifier", s:turquois, "NONE", s:t_turquois, "NONE")
 call s:Color("Constant", s:orange2, "NONE", s:t_orange2, "NONE")
 call s:Color("Boolean", s:green2, "NONE", s:t_green2, "NONE")
 call s:Color("Special", s:gold2, "NONE", s:t_gold2, "NONE")
