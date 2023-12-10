@@ -230,7 +230,7 @@ hi! link htmlScriptTag      htmlTag
 call s:Color("inkoCommentBold", s:gray4, "NONE", s:t_gray4, "NONE", "bold")
 call s:Color("inkoCommentItalic", s:gray4, "NONE", s:t_gray4, "NONE", "italic")
 call s:Color("inkoCommentTitle", s:gray4, "NONE", s:t_gray4, "NONE", "bold")
-call s:Color("inkoCommentInlineUrl", s:turqoise, "NONE", s:t_turqoise, "NONE")
+call s:Color("inkoCommentInlineUrl", s:turquois, "NONE", s:t_turquois, "NONE")
 call s:Color("inkoInstanceVariable", s:blue, "NONE", s:t_blue, "NONE")
 call s:Color("inkoKeywordArgument", s:orange, "NONE", s:t_orange, "NONE")
 
@@ -370,7 +370,7 @@ let g:terminal_color_2 = s:green
 let g:terminal_color_3 = s:yellow
 let g:terminal_color_4 = s:blue
 let g:terminal_color_5 = s:orange2
-let g:terminal_color_6 = s:turqoise
+let g:terminal_color_6 = s:turquois
 let g:terminal_color_7 = s:white
 let g:terminal_color_8 = s:black1
 let g:terminal_color_9 = s:red
@@ -378,7 +378,7 @@ let g:terminal_color_10 = s:green
 let g:terminal_color_11 = s:yellow
 let g:terminal_color_12 = s:blue
 let g:terminal_color_13 = s:orange3
-let g:terminal_color_14 = s:turqoise
+let g:terminal_color_14 = s:turquois
 let g:terminal_color_15 = s:white
 
 " Spell checking
@@ -395,4 +395,4 @@ hi! link ALEError Error
 
 " Fugitive
 call s:Color("FugitiveblameHash", s:yellow, "NONE", s:t_yellow, "NONE")
-call s:Color("FugitiveblameTime", s:turqoise, "NONE", s:t_turqoise, "NONE")
+call s:Color("FugitiveblameTime", s:turquois, "NONE", s:t_turquois, "NONE")
