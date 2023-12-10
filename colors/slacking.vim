@@ -52,7 +52,7 @@ let s:orange2  = "#ff5f00"
 let s:orange3  = "#fe8019"
 let s:gold2    = "#ffaf00"
 let s:green2   = "#008000"
-let s:navy     = "#000080"
+let s:navy     = "#0087ff"
 
 " ============================================================================
 " Terminal Colors
@@ -81,7 +81,7 @@ let s:t_orange2  = "202"    " Bolder Orange
 let s:t_orange3  = "208"    " Brighter Orange
 let s:t_gold2    = "214"
 let s:t_green2   = "2"
-let s:t_navy     = "4"
+let s:t_navy     = "33"
 " ============================================================================
 " Color Functions
 
