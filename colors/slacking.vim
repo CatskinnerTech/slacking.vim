@@ -50,7 +50,8 @@ let s:gray5    = "#aaaaaa"
 let s:gray6    = "#393939"
 let s:orange2  = "#ff5f00"
 let s:orange3  = "#fe8019"
-
+let s:gold2    = "#ffaf00"
+let s:green2   = "#008000"
 " ============================================================================
 " Terminal Colors
 "
@@ -76,7 +77,8 @@ let s:t_gray5    = "145"
 let s:t_gray6    = "237"
 let s:t_orange2  = "202"    " Bolder Orange
 let s:t_orange3  = "208"    " Brighter Orange
-
+let s:t_gold2    = "214"
+let s:t_green2   = "2"
 " ============================================================================
 " Color Functions
 
@@ -123,13 +125,13 @@ call s:Color("WarningMsg", s:yellow, "NONE", s:t_yellow, "NONE", "bold")
 call s:Color("Question", s:white, "NONE", s:t_white, "NONE")
 
 call s:Color("SpecialKey", s:white, s:gray2, s:t_white, s:t_gray2)
-call s:Color("Directory", s:blue, "NONE", s:t_blue, "NONE")
+call s:Color("Directory", s:blue, "NONE", s:t_blue, "NONE", "bold")
 
 call s:Color("Comment", s:gray4, "NONE", s:t_gray4, "NONE")
 call s:Color("Todo", s:gray5, "NONE", s:t_gray5, "NONE")
 call s:Color("String", s:green, "NONE", s:t_green, "NONE")
 call s:Color("Keyword", s:red, "NONE", s:t_red, "NONE")
-call s:Color("Number", s:turqoise, "NONE", s:t_turqoise, "NONE")
+call s:Color("Number", s:orange3, "NONE", s:t_orange3, "NONE")
 call s:Color("Regexp", s:orange, "NONE", s:t_orange, "NONE")
 call s:Color("Macro", s:orange, "NONE", s:t_orange, "NONE")
 call s:Color("Function", s:yellow, "NONE", s:t_yellow, "NONE")
@@ -138,10 +140,13 @@ call s:Color("Notice", s:yellow, "NONE", s:t_yellow, "NONE")
 call s:Color("MatchParen", "NONE", "NONE", "NONE", "NONE", "bold")
 call s:Color("Conceal", "NONE", "NONE", "NONE", "NONE", "NONE")
 
-hi! link Identifier   Normal
-hi! link Constant     Normal
-hi! link Operator     Normal
-hi! link Type         Keyword
+call s:Color("Operator", s:gold2, "NONE", s:t_gold2, "NONE", "bold")
+call s:Color("Identifier", s:navy, "NONE", s:t_navy, "NONE")
+call s:Color("Constant", s:orange2, "NONE", s:t_orange2, "NONE")
+call s:Color("Boolean", s:green2, "NONE", s:t_green2, "NONE", "bold")
+call s:Color("Special", s:gold2, "NONE", s:t_gold2, "NONE")
+call s:Color("Type", s:navy, "NONE", s:t_navy, "NONE")
+
 hi! link Statement    Keyword
 hi! link PmenuThumb   PmenuSel
 hi! link Visual       Cursor
@@ -149,8 +154,6 @@ hi! link SignColumn   FoldColumn
 hi! link Error        ErrorMsg
 hi! link NonText      LineNr
 hi! link PreProc      Normal
-hi! link Special      Normal
-hi! link Boolean      Keyword
 hi! link StorageClass Keyword
 hi! link MoreMsg      Normal
 hi! link Character    String
