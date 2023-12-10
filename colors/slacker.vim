@@ -15,61 +15,61 @@
 " Website: https://github.com/catskinner/slacker.vim
 "
 
-set background=dark
-set t_Co=256
-
-hi clear " removes all previous highlights
-
-if exists("syntax_on")
-  syntax reset
-end
-
-let colors_name = "slacker"
-
-" example: hi Constant ctermfg = 6 ctermbg = 232 cterm underlinebolditalic
-
-hi! Normal      ctermfg = 230   ctermbg = 0    cterm = NONE
-hi! EndOfBuffer ctermfg = 214   ctermbg = 0    cterm = NONE
-hi! StatusLine  ctermfg = 230   ctermbg = 236  cterm = bold 
-hi! link StatusLineNC   StatusLine
-hi! VertSplit   ctermfg = 59    ctermbg = 0     cterm = NONE
-hi! Pmenu       ctermfg = 230   ctermbg = 0     cterm = NONE
-hi! PmenuSel    ctermfg = 230   ctermbg = 59    cterm = NONE
-hi! link    PmenuSbar   PmenuSel 
-hi! link    PmenuThumb  PmenuSel
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
-hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" set background=dark
+" set t_Co=256
+"
+" hi clear " removes all previous highlights
+"
+" if exists("syntax_on")
+"   syntax reset
+" end
+"
+" let colors_name = "slacker"
+"
+" " example: hi Constant ctermfg = 6 ctermbg = 232 cterm underlinebolditalic
+"
+" hi! Normal      ctermfg = 230   ctermbg = 0    cterm = NONE
+" hi! EndOfBuffer ctermfg = 214   ctermbg = 0    cterm = NONE
+" hi! StatusLine  ctermfg = 230   ctermbg = 236  cterm = bold 
+" hi! link StatusLineNC   StatusLine
+" hi! VertSplit   ctermfg = 59    ctermbg = 0     cterm = NONE
+" hi! Pmenu       ctermfg = 230   ctermbg = 0     cterm = NONE
+" hi! PmenuSel    ctermfg = 230   ctermbg = 59    cterm = NONE
+" hi! link    PmenuSbar   PmenuSel 
+" hi! link    PmenuThumb  PmenuSel
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
+" hi! Normal      ctermfg = 230    ctermbg = 0    cterm = NONE
