@@ -52,6 +52,8 @@ let s:orange2  = "#ff5f00"
 let s:orange3  = "#fe8019"
 let s:gold2    = "#ffaf00"
 let s:green2   = "#008000"
+let s:navy     = "#000080"
+
 " ============================================================================
 " Terminal Colors
 "
@@ -79,6 +81,7 @@ let s:t_orange2  = "202"    " Bolder Orange
 let s:t_orange3  = "208"    " Brighter Orange
 let s:t_gold2    = "214"
 let s:t_green2   = "2"
+let s:t_navy     = "4"
 " ============================================================================
 " Color Functions
 
@@ -143,7 +146,7 @@ call s:Color("Conceal", "NONE", "NONE", "NONE", "NONE", "NONE")
 call s:Color("Operator", s:gold2, "NONE", s:t_gold2, "NONE", "bold")
 call s:Color("Identifier", s:navy, "NONE", s:t_navy, "NONE")
 call s:Color("Constant", s:orange2, "NONE", s:t_orange2, "NONE")
-call s:Color("Boolean", s:green2, "NONE", s:t_green2, "NONE", "bold")
+call s:Color("Boolean", s:green2, "NONE", s:t_green2, "NONE")
 call s:Color("Special", s:gold2, "NONE", s:t_gold2, "NONE")
 call s:Color("Type", s:navy, "NONE", s:t_navy, "NONE")
 
