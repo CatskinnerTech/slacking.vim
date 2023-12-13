@@ -144,7 +144,7 @@ call s:Color("MatchParen", "NONE", "NONE", "NONE", "NONE", "bold")
 call s:Color("Conceal", "NONE", "NONE", "NONE", "NONE", "NONE")
 
 call s:Color("Operator", s:gold2, "NONE", s:t_gold2, "NONE", "bold")
-call s:Color("Identifier", s:turquois, "NONE", s:t_turquois, "NONE")
+call s:Color("Identifier", s:white, "NONE", s:t_white, "NONE", "bold")
 call s:Color("Constant", s:orange2, "NONE", s:t_orange2, "NONE")
 call s:Color("Boolean", s:green2, "NONE", s:t_green2, "NONE")
 call s:Color("Special", s:gold2, "NONE", s:t_gold2, "NONE")
@@ -370,7 +370,7 @@ let g:terminal_color_2 = s:green
 let g:terminal_color_3 = s:yellow
 let g:terminal_color_4 = s:blue
 let g:terminal_color_5 = s:orange2
-let g:terminal_color_6 = s:turquois
+let g:terminal_color_6 = s:gray2
 let g:terminal_color_7 = s:white
 let g:terminal_color_8 = s:black1
 let g:terminal_color_9 = s:red
@@ -378,7 +378,7 @@ let g:terminal_color_10 = s:green
 let g:terminal_color_11 = s:yellow
 let g:terminal_color_12 = s:blue
 let g:terminal_color_13 = s:orange3
-let g:terminal_color_14 = s:turquois
+let g:terminal_color_14 = s:gray2
 let g:terminal_color_15 = s:white
 
 " Spell checking
