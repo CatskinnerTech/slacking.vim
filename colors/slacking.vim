@@ -128,7 +128,7 @@ call s:Color("WarningMsg", s:yellow, "NONE", s:t_yellow, "NONE", "bold")
 call s:Color("Question", s:white, "NONE", s:t_white, "NONE")
 
 call s:Color("SpecialKey", s:white, s:gray2, s:t_white, s:t_gray2)
-call s:Color("Directory", s:blue, "NONE", s:t_blue, "NONE", "bold")
+call s:Color("Directory", s:navy, "NONE", s:t_navy, "NONE", "bold")
 
 call s:Color("Comment", s:gray4, "NONE", s:t_gray4, "NONE")
 call s:Color("Todo", s:gray5, "NONE", s:t_gray5, "NONE")
@@ -140,7 +140,7 @@ call s:Color("Macro", s:orange, "NONE", s:t_orange, "NONE")
 call s:Color("Function", s:yellow, "NONE", s:t_yellow, "NONE")
 call s:Color("Notice", s:yellow, "NONE", s:t_yellow, "NONE")
 
-call s:Color("MatchParen", "NONE", "NONE", "NONE", "NONE", "bold")
+call s:Color("MatchParen", s:red, "NONE", s:t_red, "NONE", "bold")
 call s:Color("Conceal", "NONE", "NONE", "NONE", "NONE", "NONE")
 
 call s:Color("Operator", s:gold2, "NONE", s:t_gold2, "NONE" )
