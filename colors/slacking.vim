@@ -112,7 +112,7 @@ call s:Color("Cursor", "NONE", s:gray2, "NONE", s:t_gray2)
 call s:Color("CursorLine", "NONE", s:gray2, "NONE", s:t_gray2)
 call s:Color("Normal", s:white, s:gray1, s:t_white, s:t_gray1)
 call s:Color("Search", s:yellow, "NONE", s:t_yellow, "NONE", "bold")
-call s:Color("Title", s:white, "NONE", s:t_white, "NONE", "bold")
+call s:Color("Title", s:gold2, "NONE", s:t_gold2, "NONE", "bold")
 
 call s:Color("LineNr", s:gray4, "NONE", s:t_gray4, "NONE")
 call s:Color("StatusLine", s:white, s:gray6, s:t_white, s:t_gray6)
