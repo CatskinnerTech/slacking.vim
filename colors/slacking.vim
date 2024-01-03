@@ -140,7 +140,7 @@ call s:Color("Macro", s:orange, "NONE", s:t_orange, "NONE")
 call s:Color("Function", s:yellow, "NONE", s:t_yellow, "NONE")
 call s:Color("Notice", s:yellow, "NONE", s:t_yellow, "NONE")
 
-call s:Color("MatchParen", s:red, "bold", s:gray6, "NONE", s:t_red, "bold", s:t_gray6, "NONE")
+call s:Color("MatchParen", s:red, s:gray6, "NONE", s:t_red, s:t_gray6, "bold")
 call s:Color("Conceal", "NONE", "NONE", "NONE", "NONE", "NONE")
 
 call s:Color("Operator", s:gold2, "NONE", s:t_gold2, "NONE" )
