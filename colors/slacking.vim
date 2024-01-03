@@ -111,7 +111,7 @@ call s:Color("PmenuSel", s:white, s:gray2, s:t_white, s:t_gray2)
 call s:Color("Cursor", "NONE", s:gray2, "NONE", s:t_gray2)
 call s:Color("CursorLine", "NONE", s:gray2, "NONE", s:t_gray2)
 call s:Color("Normal", s:white, s:gray1, s:t_white, s:t_gray1)
-call s:Color("Search", s:yellow, "NONE", s:t_yellow, "NONE")
+call s:Color("Search", s:yellow, "NONE", s:t_yellow, "bold")
 call s:Color("Title", s:gold2, "NONE", s:t_gold2, "NONE", "bold")
 
 call s:Color("LineNr", s:gray4, "NONE", s:t_gray4, "NONE")
@@ -140,7 +140,7 @@ call s:Color("Macro", s:orange, "NONE", s:t_orange, "NONE")
 call s:Color("Function", s:yellow, "NONE", s:t_yellow, "NONE")
 call s:Color("Notice", s:yellow, "NONE", s:t_yellow, "NONE")
 
-call s:Color("MatchParen", s:red, "NONE", s:t_red, "NONE", "bold")
+call s:Color("MatchParen", s:red, "bold", s:gray6, "NONE", s:t_red, "bold", s:t_gray6, "NONE")
 call s:Color("Conceal", "NONE", "NONE", "NONE", "NONE", "NONE")
 
 call s:Color("Operator", s:gold2, "NONE", s:t_gold2, "NONE" )
