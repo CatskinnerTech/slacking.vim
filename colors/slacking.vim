@@ -355,7 +355,7 @@ hi! link TabLineFill StatusLine
 call s:Color("TabLineSel", s:white, s:gray2, s:t_white, s:t_gray2, "bold")
 
 " Line numbers
-call s:Color("CursorLineNR", s:yellow, "NONE", s:t_yellow, "NONE", "bold")
+call s:Color("CursorLineNR", s:yellow, "NONE", s:t_yellow, "NONE")
 
 " Neovim terminal colors
 let g:terminal_color_0 = s:black1
