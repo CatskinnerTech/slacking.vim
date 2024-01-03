@@ -4,12 +4,6 @@
 " (https://github.com/yorickpeterse/happy_hacking.vim). The main differences between
 " the two themes is replacing pinks with different oranges.
 "
-" As with any Vim color scheme the overall look and feel heavily depends on how
-" accurate a syntax highlighter for a language is. For example, the Ruby syntax
-" highlighter is fairly accurate and allows you to customize a lot whereas for
-" example C has a more generic highlighting setup. At worst this will result in
-" a bit more heavy use of red as it's one of the base colors of this theme.
-"
 " Author: Scott Rice 
 " License: MIT
 " Website: https://github.com/catskinner/slacking.vim
