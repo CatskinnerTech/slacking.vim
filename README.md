@@ -6,7 +6,7 @@ It was originally based on a theme by Yorick Peterse called ["Happy Hacking"][ha
 ## Screenshots
 | bash | Lua | GO
 |------|------|---------
-| ![bash](screenshots/Slacking_in_BASH.png) | ![Lua](screenshots/Slacking_in_Lua.png) | ![GO](screenshots/GO.png)
+| ![bash](screenshots/Slacking_in_BASH.png) | ![Lua](screenshots/Slacking_in_Lua.png) | ![GO](screenshots/Slacking_in_GO.png)
 ## Install
 Add the following to your lazy plugin
 ```
